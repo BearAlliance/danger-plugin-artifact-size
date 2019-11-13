@@ -63,6 +63,9 @@ typings/
 # Generated code
 dist/
 
+### Webstorm ###
+.idea
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
