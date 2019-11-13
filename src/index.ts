@@ -26,5 +26,5 @@ export default function artifactSize(globPattern) {
   ]);
 
   const mdSizeTable = generateMdTable(['Artifact', 'Size'], sizes);
-  markdown(`**Artifacts**\n${mdSizeTable}`);
+  markdown(`**Artifacts**\n\n${mdSizeTable}`);
 }

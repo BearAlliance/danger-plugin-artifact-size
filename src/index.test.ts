@@ -21,6 +21,7 @@ describe('artifact-size-plugin', () => {
     artifactSize('src/test-files/travis.yml');
     expect(global.markdown).toHaveBeenCalledWith(
       `**Artifacts**
+
 Artifact | Size
 ---  |  ---
 src/test-files/travis.yml | 0.28 KB`
@@ -31,6 +32,7 @@ src/test-files/travis.yml | 0.28 KB`
     artifactSize('src/test-files/*.yml');
     expect(global.markdown).toHaveBeenCalledWith(
       `**Artifacts**
+
 Artifact | Size
 ---  |  ---
 src/test-files/prettierrc.yml | 0.04 KB
@@ -42,6 +44,7 @@ src/test-files/travis.yml | 0.28 KB`
     artifactSize('src/test-files/**');
     expect(global.markdown).toHaveBeenCalledWith(
       `**Artifacts**
+
 Artifact | Size
 ---  |  ---
 src/test-files/commitlintrc.json | 0.05 KB
