@@ -17,6 +17,12 @@ function generateMdTable(headers: string[], body: string[][]): string {
 }
 
 export default function artifactSize(globPattern) {
+  if (!globPattern) {
+    fail(
+      'You must supply a [glob](https://github.com/isaacs/node-glob) pattern to `danger-plugin-artifact-size` or it will not know what to look for!\nSee the [README](https://www.npmjs.com/package/danger-plugin-artifact-size) for help'
+    );
+    return;
+  }
   const everything = glob.sync(globPattern, { mark: true });
   const filePaths = everything.filter(path => !path.endsWith('/'));
 
