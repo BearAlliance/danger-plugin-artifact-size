@@ -35,8 +35,8 @@ src/test-files/travis.yml | 0.28 KB`
 
 Artifact | Size
 ---  |  ---
-src/test-files/prettierrc.yml | 0.04 KB
-src/test-files/travis.yml | 0.28 KB`
+src/test-files/travis.yml | 0.28 KB
+src/test-files/prettierrc.yml | 0.04 KB`
     );
   });
 
@@ -47,9 +47,9 @@ src/test-files/travis.yml | 0.28 KB`
 
 Artifact | Size
 ---  |  ---
-src/test-files/commitlintrc.json | 0.05 KB
+src/test-files/travis.yml | 0.28 KB
 src/test-files/prettierrc.yml | 0.04 KB
-src/test-files/travis.yml | 0.28 KB`
+src/test-files/commitlintrc.json | 0.05 KB`
     );
   });
 });
