@@ -1,5 +1,6 @@
 import artifactSize from './index';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 declare const global: any;
 
 describe('artifact-size-plugin', () => {
