@@ -92,5 +92,16 @@
   },
   "dependencies": {
     "glob": "^10.2.3"
+  },
+  "release": {
+    "branches": [
+      [
+        "main",
+        {
+          "name": "beta",
+          "prerelease": true
+        }
+      ]
+    ]
   }
 }
